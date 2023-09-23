@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li {
+            background-color: brown;
+        }
+        article{
+            background-color: orange;
+        }
+        div {background-color: chocolate;}
+        section{background-color: yellow;
+            
+        }
+        .subtitulo{
+            color: red;
+        }
+        body{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+<!--el header esta predefinidio para que guarde info del sitio como logo de la pagina, menu o nombre-->
+    <header>
+        <h1>etiquetas semanticas y selectores html</h1>
+    <!--menus de navegacion se usa etiquetas nav -->
+    <nav>
+        <!---->
+        <ul style="background-color: bisque;">
+            <li><a href="#">inicio</a></li>
+            <li><a href="#">noticias</a></li>
+            <li><a href="#">contacto</a></li>
+        </ul>
+    </nav>
+    
+    </header>
+    <main>
+        <section>
+            <h2 class="subtitulo">inicio</h2>
+            <h3>selectores</h3>
+            <h2 class="subtitulo">ID</h2>
+            <p>es una clasificacion unica a mis elementos html, donde no se puede repetir ID en otros elementos</p>
+            <h2>class</h2>
+            <p>no es para solo un elemento, y se caracteriza porque se puede repetir en varios elementos</p>
+        </section>
+        <section id="noticias">
+            <h2 class="subtitulo">noticias</h2>
+            <!-- div es etiqueta sin valor semantico, o sea general-->
+            <article>
+                <h3>titulo de la noticia</h3>
+                <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+            </article>
+        </section>
+        <section>
+            <h2 class="subtitulo">contacto</h2>
+        </section>
+    </main>
+    <!--dentro del main va el contenido principal de una pagina-->
+    <section></section>
+    <footer>
+        todos los derechos reservados a mi
+    </footer>
+
+    
+</body>
+</html>
